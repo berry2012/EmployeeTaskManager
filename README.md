@@ -45,18 +45,15 @@ git clone
 
 ## Example API Routes
 
----
-•	GET /api/employees → List all employees
-•	GET /api/employees/{id} → Get details of one employee
-•	POST /api/employees → Create employee
-•	PUT /api/employees/{id} → Update employee
-•	DELETE /api/employees/{id} → Delete employee
-•	GET /api/employees/{id}/tasks → Get all tasks for an employee
-•	POST /api/employees/{id}/tasks → Add a task to employee
-•	PUT /api/tasks/{taskId} → Update task
-•	DELETE /api/tasks/{taskId} → Delete task
----
-
+- GET /api/employees → List all employees
+- GET /api/employees/{id} → Get details of one employee
+- POST /api/employees → Create employee
+- PUT /api/employees/{id} → Update employee
+- DELETE /api/employees/{id} → Delete employee
+- GET /api/employees/{id}/tasks → Get all tasks for an employee
+- POST /api/employees/{id}/tasks → Add a task to employee
+- PUT /api/tasks/{taskId} → Update task
+- DELETE /api/tasks/{taskId} → Delete task
 
 ## Running and Testing
 
@@ -110,7 +107,6 @@ or on Windows Command Prompt:
 
 curl -X POST "http://localhost:5000/api/employees" -H "Content-Type: application/json" -d "{\"name\": \"Jane Doe\", \"department\": \"Engineering\", \"email\": \"jane.doe@example.com\", \"taskItems\": []}"
 
-curl -X POST "http://localhost:5000/api/Employees" -H  "accept: text/plain" -H  "Content-Type: application/json" -d "{\"employeeId\":3,\"name\":\"John Wick\",\"department\":\"Engineering\",\"email\":\"john.wick@engineering\",\"taskItems\":[]}"
 ```
 
 
