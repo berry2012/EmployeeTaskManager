@@ -9,13 +9,13 @@ namespace EmployeeTaskManager.Models
         public int TaskId { get; set; }
 
         [Required]
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
 
         public bool IsCompleted { get; set; }
 
         [ForeignKey("Employee")]
         public int EmployeeId { get; set; }
 
-        public Employee Employee { get; set; }
+        public Employee Employee { get; set; } = null!;
     }
 }

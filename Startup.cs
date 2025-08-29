@@ -11,7 +11,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using EmployeeTaskManager.Data;
 using Microsoft.EntityFrameworkCore;
-// Add the required using directive for Newtonsoft.Json support in ASP.NET Core 3.1
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 
 namespace EmployeeTaskManager
