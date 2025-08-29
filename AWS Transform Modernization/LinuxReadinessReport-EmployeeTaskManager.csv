@@ -1,0 +1,9 @@
+ProjectName,FileName,DetectionType,DetectionItem,Description,SeverityLevel,Recommendation
+EmployeeTaskManager,N/A,ExternalConnectivityConsiderations,ExternalServiceConnectivity,Detected feature HttpLibraryFeature. Project potentially connects to external services.,Low,Recommend verifying the external service connectivity for Linux.
+EmployeeTaskManager,N/A,WindowsSpecificConsiderations,FilePermission,Detected feature FileAccessControlFeature. Project contains APIs that can be used to modify file permissions.,Low,Recommend verifying file permissions.
+EmployeeTaskManager,N/A,WindowsSpecificConsiderations,Package,'Microsoft.CodeAnalysis.Workspaces-4.5.0-NUGET' is cross-platform compatibility unknown.,High,No recommendation
+EmployeeTaskManager,N/A,WindowsSpecificConsiderations,Package,'Newtonsoft.Json.Bson-1.0.0-NUGET' is cross-platform incompatible.,High,Recommend upgrading the version to 1.0.1.
+EmployeeTaskManager,N/A,WindowsSpecificConsiderations,Package,'Swashbuckle.AspNetCore.SwaggerUI-6.5.0-NUGET' is cross-platform incompatible.,High,No recommendation
+EmployeeTaskManager,N/A,WindowsSpecificConsiderations,Package,'System.CodeDom-4.0.0-NUGET' is cross-platform incompatible.,High,Recommend upgrading the version to 4.4.0.
+EmployeeTaskManager,Startup.cs,WindowsSpecificConsiderations,API,'Microsoft.AspNetCore.Builder.IApplicationBuilder.UseSwaggerUI(System.Action<Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions>)' of package 'Swashbuckle.AspNetCore.SwaggerUI-6.5.0-NUGET' is cross-platform incompatible.,High,No recommendation
+EmployeeTaskManager,Startup.cs,WindowsSpecificConsiderations,API,"'Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIOptions.SwaggerEndpoint(string, string)' of package 'Swashbuckle.AspNetCore.SwaggerUI-6.5.0-NUGET' is cross-platform incompatible.",High,No recommendation

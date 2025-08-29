@@ -12,6 +12,7 @@ Prerequisites:
 - Git
 
 
+
 Setup Instructions:
 
 ```bash
@@ -143,3 +144,7 @@ curl -X PUT "http://localhost:5000/api/Employees/1" -H  "accept: */*" -H  "Conte
 - Microsoft.Extensions.Caching.Memory (for in-memory caching)
 - Polly (for resilience and transient fault handling)
 
+
+## Goal - AWS Transform for .NET modernization
+
+- Migration from .NET Core 3.1 to .NET 8.0 for the EmployeeTaskManager project
